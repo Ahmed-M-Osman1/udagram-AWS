@@ -38,9 +38,17 @@ jobs:
           command: |
             npm run frontend:lint
       - run:
+      name: Install pip
+      command: |
+        sudo apt update
+        sudo apt install -y python-pip python-dev
+   - run:
+      name: Install AWS dependencies
+      command: |
+        sudo pip install awsebcli
+      - run:
           name: API Build
           command: |
-            eb init
             npm run api:build
   # deploy step will run only after manual approval
   deploy:
