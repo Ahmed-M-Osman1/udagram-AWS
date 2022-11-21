@@ -1,6 +1,6 @@
 branch-defaults:
   default:
-    environment: null
+    environment: ahmedmosman-udagram-dev
 global:
   application_name: ahmedmosman-udagram
   branch: null
