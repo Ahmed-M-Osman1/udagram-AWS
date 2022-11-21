@@ -38,14 +38,6 @@ jobs:
           command: |
             npm run frontend:lint
       - run:
-      name: Install pip
-      command: |
-        sudo apt install -y python-pip python-dev
-   - run:
-      name: Install AWS dependencies
-      command: |
-        sudo pip install awsebcli
-      - run:
           name: API Build
           command: |
             npm run api:build
