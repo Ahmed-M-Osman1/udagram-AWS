@@ -28,7 +28,7 @@ import {
   console.log('Database Connected');
 
   const app = express();
-  const port = 5000;
+  const port = 5432;
 
   app.use(bodyParser.json());
 
