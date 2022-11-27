@@ -16,6 +16,15 @@ jobs:
           node-version: '14.15'
       - checkout
       - aws-cli/setup
+      - run:
+      name: Install pip
+      command: |
+        sudo apt update
+        sudo apt install -y python-pip python-dev
+   - run:
+      name: Install AWS dependencies
+      command: |
+        sudo pip install awsebcli
       # Use root level package.json to install dependencies in the frontend app
       - run:
           name: Install Front-End Dependencies
@@ -37,15 +46,6 @@ jobs:
           name: Front-End Build
           command: |
             npm run frontend:lint
-      - run:
-      name: Install pip
-      command: |
-        sudo apt update
-        sudo apt install -y python-pip python-dev
-   - run:
-      name: Install AWS dependencies
-      command: |
-        sudo pip install awsebcli
       - run:
           name: API Build
           command: |
