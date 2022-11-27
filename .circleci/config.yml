@@ -2,8 +2,8 @@ version: 2.1
 orbs:
   # orgs contain basc recipes and reproducible actions (install node, aws, etc.)
   node: circleci/node@5.0.2
-  eb: circleci/aws-elastic-beanstalk@2.0.1
   aws-cli: circleci/aws-cli@3.1.1
+  aws-elastic-beanstalk: circleci/aws-elastic-beanstalk@2.0.1
   # different jobs are calles later in the workflows sections
 jobs:
   build:
@@ -16,9 +16,7 @@ jobs:
           node-version: '14.15'
       - checkout
       - aws-cli/setup
-      - sudo apt update
-      - sudo apt install -y python-pip python-dev
-      - sudo pip install awsebcli
+      - aws-elastic-beanstalk/setup
       # Use root level package.json to install dependencies in the frontend app
       - run:
           name: Install Front-End Dependencies
