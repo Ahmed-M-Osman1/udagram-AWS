@@ -19,11 +19,13 @@ I have register for a free account on CircleCi and connect my Github account to 
 
 1- [Infrastructure description](https://github.com/akiid777/udagram-AWS/blob/master/Docs/Infrastructure%20description.md)
 
-1- [Installation](https://github.com/akiid777/udagram-AWS/blob/master/Docs/Installation.md)
+2- [Installation](https://github.com/akiid777/udagram-AWS/blob/master/Docs/Installation.md)
 
-1- [How It works](https://github.com/akiid777/udagram-AWS/blob/master/Docs/How%20It%20works.md)
+3- [How It works](https://github.com/akiid777/udagram-AWS/blob/master/Docs/How%20It%20works.md)
 
-1- [CI-CD](https://github.com/akiid777/udagram-AWS/blob/master/Docs/CI-CD.md)
+4- [App dependencies](https://github.com/akiid777/udagram-AWS/blob/master/Docs/App_dependencies.md)
+
+5- [CI-CD](https://github.com/akiid777/udagram-AWS/blob/master/Docs/CI-CD.md)
 
 
 ## ScreenShots:
