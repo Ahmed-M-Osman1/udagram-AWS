@@ -1,6 +1,8 @@
 # How to run this project:
 
-First of all, you need to add the env varibles in the .env file.
+First of all, Clone the project.
+
+Then, you need to add the env varibles in the .env file.
 
 You have to create: `.env` file and add it in the `udagram/udagram-api` with the following parameters:
 
@@ -17,6 +19,7 @@ You have to create: `.env` file and add it in the `udagram/udagram-api` with the
 | JWT_SECRET  | Database SECRET |
 | DB_PORT  | Port for DB  |
 
+After that, use your CI/CD to upload the project to AWS. 
 
 ## Where to Found those Data: 
 
