@@ -15,7 +15,7 @@ I have register for a free account on CircleCi and connect my Github account to 
 
 # Documentation:
 
-1- [Infrastructure description](Docs/Infrastructure description)
+1- [Infrastructure description](/Docs/Infrastructure description)
 
 ## License
 
