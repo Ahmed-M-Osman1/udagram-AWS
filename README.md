@@ -24,6 +24,27 @@ I have register for a free account on CircleCi and connect my Github account to 
 1- [CI-CD](https://github.com/akiid777/udagram-AWS/blob/master/Docs/CI-CD.md)
 
 
+## ScreenShots:
+
+### Elastic Beanstalk:
+
+![Screenshot 2022-12-01 at 8 52 42 PM](https://user-images.githubusercontent.com/64021350/205136325-7ab33d16-140b-435a-871b-de8eb9d022d6.png)
+
+
+### RDS (My database):
+
+![Screenshot 2022-12-01 at 8 51 29 PM](https://user-images.githubusercontent.com/64021350/205136385-cfb401de-29e5-44a1-bd0d-26927a284b18.png)
+
+![Screenshot 2022-12-01 at 8 51 43 PM](https://user-images.githubusercontent.com/64021350/205136426-44056029-d0ab-446c-9944-b25897022615.png)
+
+### S3 (My bucket):
+
+![Screenshot 2022-12-01 at 8 52 19 PM](https://user-images.githubusercontent.com/64021350/205136468-b1636d3c-007e-47af-8562-85385d36cdfe.png)
+
+### CI/CD (My Circle Ci account):
+
+![ci-cd-flow-desktop](https://user-images.githubusercontent.com/64021350/205131745-f1ebcadd-b162-4012-92c2-63b1f0ddac69.png)
+
 ## License
 
 [License](LICENSE.txt)
