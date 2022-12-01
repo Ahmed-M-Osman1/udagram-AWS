@@ -13,56 +13,6 @@ Angular is a TypeScript-based free and open-source web application framework led
 
 This technology is responcible for Frontend.
 
-##### Dependancies used in frontend:
-```
- "dependencies": {
-     # angular essensial dep.
-    "@angular/common": "^8.2.14",
-    "@angular/core": "^8.2.14",
-    "@angular/forms": "^8.2.14",
-    "@angular/http": "^7.2.16",
-    "@angular/platform-browser": "^8.2.14",
-    "@angular/platform-browser-dynamic": "^8.2.14",
-    "@angular/router": "^8.2.14",
-    # ionic essensial dep.
-    "@ionic-native/core": "^5.0.0",
-    "@ionic-native/splash-screen": "^5.0.0",
-    "@ionic-native/status-bar": "^5.0.0",
-    "@ionic/angular": "^4.1.0",
-    # commencate to the backend:
-    "core-js": "^2.5.4",
-    "rxjs": "~6.5.4",
-    "zone.js": "~0.9.1"
-  },
-  "devDependencies": { => use in the Dev only.
-    "@angular-devkit/architect": "~0.12.3",
-    "@angular-devkit/build-angular": "^0.803.24",
-    "@angular-devkit/core": "~7.2.3",
-    "@angular-devkit/schematics": "~7.2.3",
-    "@angular/cli": "~8.3.25",
-    "@angular/compiler": "~8.2.14",
-    "@angular/compiler-cli": "~8.2.14",
-    "@angular/language-service": "~8.2.14",
-    "@ionic/angular-toolkit": "~1.4.0",
-    "@types/jasmine": "~2.8.8",
-    "@types/jasminewd2": "~2.0.3",
-    "@types/node": "~10.12.0",
-    "@typescript-eslint/eslint-plugin": "^2.20.0",
-    "@typescript-eslint/parser": "^2.20.0",
-    "codelyzer": "~4.5.0",
-    "jasmine-core": "~2.99.1",
-    "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~3.1.4",
-    "karma-chrome-launcher": "~2.2.0",
-    "karma-coverage-istanbul-reporter": "~2.0.1",
-    "karma-jasmine": "~1.1.2",
-    "karma-jasmine-html-reporter": "^0.2.2",
-    "protractor": "~5.4.0",
-    "ts-node": "~8.0.0",
-    "tslint": "~5.12.0",
-    "typescript": "3.4.5"
-  },
-```
 
 ### Node:
 Node.js is an open-source server environment. Node.js is cross-platform and runs on Windows, Linux, Unix, and macOS. Node.js is a back-end JavaScript runtime environment. Node.js runs on the V8 JavaScript Engine and executes JavaScript code outside a web browser. 
@@ -119,3 +69,5 @@ Express.js, or simply Express, is a back end web application framework for build
 
 This technology is responcible for API calls. This is acctully adepandance in the Backend.
 
+
+![Untitled Design](https://user-images.githubusercontent.com/64021350/205179662-3103f6f5-82ab-4353-95b4-0a3966dc2c5e.png)
