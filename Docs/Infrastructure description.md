@@ -28,3 +28,8 @@ This technology is responcible for API calls. This is acctully adepandance in th
 
 
 
+## Digram for how it works:
+
+![Untitled Design](https://user-images.githubusercontent.com/64021350/205179662-3103f6f5-82ab-4353-95b4-0a3966dc2c5e.png)
+
+
