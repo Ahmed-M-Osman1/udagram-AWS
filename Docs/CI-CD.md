@@ -106,8 +106,11 @@ workflows:
             - hold
 ```
 
+![Screenshot 2022-12-01 at 3 41 20 PM](https://user-images.githubusercontent.com/64021350/205182201-01b05ba8-2c85-4b76-84e6-5fb98d8a3d89.png)
+
+
 ### 1- Orbs:
-  # orgs contain basc recipes and reproducible actions:
+  orgs contain basc recipes and reproducible actions:
   node: circleci/node@5.0.2                ` => install node in the docker container`
   
   aws-cli: circleci/aws-cli@3.1.1          ` => install aws-cli in the docker container`
