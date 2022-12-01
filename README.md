@@ -43,7 +43,7 @@ I have register for a free account on CircleCi and connect my Github account to 
 
 ### CI/CD (My Circle Ci account):
 
-![ci-cd-flow-desktop](https://user-images.githubusercontent.com/64021350/205131745-f1ebcadd-b162-4012-92c2-63b1f0ddac69.png)
+![Screenshot 2022-12-01 at 6 39 26 PM](https://user-images.githubusercontent.com/64021350/205122766-31a6adb4-aa20-4104-8ba6-930ae4fdf904.png)
 
 ## License
 
