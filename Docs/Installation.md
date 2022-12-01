@@ -41,3 +41,6 @@ Unit tests are using the Jasmine Framework.
 ### End to End Tests:
 
 The e2e tests are using Protractor and Jasmine.
+  
+  
+### Follow this link to countinue [How It works](https://github.com/akiid777/udagram-AWS/blob/master/Docs/How%20It%20works.md).
