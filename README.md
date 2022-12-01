@@ -13,6 +13,8 @@ I used AWS console to start and configure the services the application needs suc
 
 I have register for a free account on CircleCi and connect my Github account to it. Based on the manual steps used to deploy the app, I did write a config.yml file that will make the process reproducible in CircleCi. I also set up the process to be executed automatically based when code is pushed on the main Github branch.
 
+## To visit the website [Click here](http://ahmedmsoman-udagram.s3-website-us-east-1.amazonaws.com)
+
 # Documentation:
 
 1- [Infrastructure description](https://github.com/akiid777/udagram-AWS/blob/master/Docs/Infrastructure%20description.md)
