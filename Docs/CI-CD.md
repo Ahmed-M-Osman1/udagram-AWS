@@ -104,6 +104,8 @@ workflows:
 
 ### 1- orbs:
   # orgs contain basc recipes and reproducible actions:
-  node: circleci/node@5.0.2 => `install node in the docker container`
-  aws-cli: circleci/aws-cli@3.1.1 => `install aws-cli in the docker container`
-  eb: circleci/aws-elastic-beanstalk@2.0.1 => `install aws-elastic-beanstalk in the docker container`
+  node: circleci/node@5.0.2 ` => install node in the docker container`
+  
+  aws-cli: circleci/aws-cli@3.1.1 ` => install aws-cli in the docker container`
+  
+  eb: circleci/aws-elastic-beanstalk@2.0.1 ` => install aws-elastic-beanstalk in the docker container`
