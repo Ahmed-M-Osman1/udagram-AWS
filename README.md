@@ -19,10 +19,13 @@ First of all, you need to add the env varibles in the .env file.
 
 You have to create: ´.env´ file and add it in the ´udagram/udagram-api´ with the following parameters:
 
-| Variable | value |
-------------------
-POSTGRES_USERNAME=postgres
-POSTGRES_PASSWORD=postgres
+| Variable  | Value |
+| ------------- | ------------- |
+| POSTGRES_USERNAME  | Content Cell  |
+| POSTGRES_PASSWORD  | Content Cell  |
+
+=postgres
+=postgres
 POSTGRES_HOST=database-1.c2chzapcol5i.us-east-1.rds.amazonaws.com
 POSTGRES_DB=postgres
 PORT=
