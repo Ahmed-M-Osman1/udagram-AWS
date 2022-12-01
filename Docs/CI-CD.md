@@ -21,6 +21,10 @@ Circle Ci is a very simple free tool for the CI/CD. simply attached your `GitHub
 ![Screenshot 2022-12-01 at 6 39 26 PM](https://user-images.githubusercontent.com/64021350/205122766-31a6adb4-aa20-4104-8ba6-930ae4fdf904.png)
 
 
+#### important: you need to add the env varibales to the Circle Ci:
+
+![Screenshot 2022-12-01 at 3 00 43 PM](https://user-images.githubusercontent.com/64021350/205177256-9066d405-0a48-490b-ba79-5fffddf3a6e2.png)
+
 # My Pipline:
 
 file contains the following: 
