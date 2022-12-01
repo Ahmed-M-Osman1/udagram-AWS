@@ -21,3 +21,89 @@ Circle Ci is a very simple free tool for the CI/CD. simply attached your `GitHub
 ![Screenshot 2022-12-01 at 6 39 26 PM](https://user-images.githubusercontent.com/64021350/205122766-31a6adb4-aa20-4104-8ba6-930ae4fdf904.png)
 
 
+# My Pipline:
+
+file contains the following: 
+```
+version: 2.1
+orbs:
+  # orgs contain basc recipes and reproducible actions (install node, aws, etc.)
+  node: circleci/node@5.0.2
+  aws-cli: circleci/aws-cli@3.1.1
+  eb: circleci/aws-elastic-beanstalk@2.0.1
+  # different jobs are calles later in the workflows sections
+jobs:
+  build:
+    docker:
+      # the base image can run most needed actions with orbs
+      - image: 'cimg/node:14.15'
+    steps:
+      # install node and checkout code
+      - node/install:
+          node-version: '14.15'
+      - checkout
+      - aws-cli/setup
+      - eb/setup
+      # Use root level package.json to install dependencies in the frontend app
+      - run:
+          name: Install Front-End Dependencies
+          command: |
+            echo "NODE --version" 
+            echo $(node --version)
+            echo "NPM --version" 
+            echo $(npm --version)
+            npm run frontend:install
+      - run:
+          name: Install API Dependencies
+          command: |
+            npm run api:install
+      - run:
+          name: Front-End Lint
+          command: |
+            npm run frontend:install
+      - run:
+          name: Front-End Build
+          command: |
+            npm run frontend:lint
+      - run:
+          name: API Build
+          command: |
+            npm run api:build
+  # deploy step will run only after manual approval
+  deploy:
+    docker:
+      - image: 'cimg/base:stable'
+      # more setup needed for aws, node, elastic beanstalk
+    steps:
+      - node/install:
+          node-version: '14.15'
+      - eb/setup
+      - aws-cli/setup
+      - checkout
+      - run:
+          name: Deploy App
+          command: |
+            npm run deploy
+
+workflows:
+  udagram:
+    jobs:
+      - build
+      - hold:
+          filters:
+            branches:
+              only:
+                - master
+          type: approval
+          requires:
+            - build
+      - deploy:
+          requires:
+            - hold
+```
+
+### 1- orbs:
+  # orgs contain basc recipes and reproducible actions:
+  node: circleci/node@5.0.2 => `install node in the docker container`
+  aws-cli: circleci/aws-cli@3.1.1 => `install aws-cli in the docker container`
+  eb: circleci/aws-elastic-beanstalk@2.0.1 => `install aws-elastic-beanstalk in the docker container`
