@@ -17,24 +17,20 @@ I have register for a free account on CircleCi and connect my Github account to 
 
 First of all, you need to add the env varibles in the .env file.
 
-You have to create: ´.env´ file and add it in the ´udagram/udagram-api´ with the following parameters:
+You have to create: `.env` file and add it in the `udagram/udagram-api` with the following parameters:
 
 | Variable  | Value |
 | ------------- | ------------- |
 | POSTGRES_USERNAME  | Content Cell  |
 | POSTGRES_PASSWORD  | Content Cell  |
-
-=postgres
-=postgres
-POSTGRES_HOST=database-1.c2chzapcol5i.us-east-1.rds.amazonaws.com
-POSTGRES_DB=postgres
-PORT=
-AWS_REGION=us-east-1 
-AWS_PROFILE=AKIAZ4X7P3KFQ4KSWUN7
-AWS_BUCKET=arn:aws:s3:::ahmedmsoman-udagram   
-URL=http://ahmedmsoman-udagram.s3-website-us-east-1.amazonaws.com
-JWT_SECRET=ahmedosmansecret
-DB_PORT=5432
+| POSTGRES_HOST  | Content Cell  |
+| POSTGRES_DB  | Content Cell  |
+| AWS_REGION  | Content Cell  |
+| AWS_PROFILE  | Content Cell  |
+| AWS_BUCKET  | Content Cell  |
+| URL  | Content Cell  |
+| JWT_SECRET  | Content Cell  |
+| DB_PORT  | Content Cell  |
 
 ### First: Circle CI:
 
