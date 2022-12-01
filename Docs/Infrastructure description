@@ -12,6 +12,16 @@ Angular is a TypeScript-based free and open-source web application framework led
 (Wikipedia)
 This technology is responcible for Frontend.
 
+### Node:
+Node.js is an open-source server environment. Node.js is cross-platform and runs on Windows, Linux, Unix, and macOS. Node.js is a back-end JavaScript runtime environment. Node.js runs on the V8 JavaScript Engine and executes JavaScript code outside a web browser. 
+(Wikipedia)
+This technology is responcible for Backend.
+
+### Express:
+Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.
+This technology is responcible for API calls.
+
+
 
 First of all, you need to add the env varibles in the .env file.
 
