@@ -13,12 +13,15 @@ I used AWS console to start and configure the services the application needs suc
 
 I have register for a free account on CircleCi and connect my Github account to it. Based on the manual steps used to deploy the app, I did write a config.yml file that will make the process reproducible in CircleCi. I also set up the process to be executed automatically based when code is pushed on the main Github branch.
 
+# Steps of my work:
 
+First of all, you need to add the env varibles in the .env file.
 
-# Udagram
+You have to create: 
 
-This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
+### First: Circle CI:
 
+![Screenshot 2022-12-01 at 6 39 26 PM](https://user-images.githubusercontent.com/64021350/205122766-31a6adb4-aa20-4104-8ba6-930ae4fdf904.png)
 
 
 ### Dependencies
